@@ -1,0 +1,103 @@
+﻿.container {
+  min-h-screen: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F5;
+  padding: 1rem;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.titleSection {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1A237E;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+  padding: 3rem 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.cardHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.cardTitle {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.cardSubtitle {
+  font-size: 0.95rem;
+  color: #999;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputField {
+  width: 100%;
+  padding: 1.1rem;
+  background-color: #f3f4f6;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.inputField:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #1A237E;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 1.1rem;
+  background-color: #1A237E;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
+  margin-top: 1rem;
+}
+
+.submitBtn:active {
+  transform: scale(0.98);
+}
+
+.toggleBtn {
+  display: block;
+  margin: 1.5rem auto 0;
+  background: none;
+  border: none;
+  color: #C5A059;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
